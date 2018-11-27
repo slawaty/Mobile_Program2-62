@@ -48,7 +48,6 @@
         app:srcCompat="@drawable/got" />
 
 
-    
     <TextView
         android:id="@+id/textView"
         android:layout_width="323dp"
@@ -57,10 +56,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/edmuzazhi"
         android:text="@string/address"
         android:textColor="@color/colorAccent"
         android:textSize="@dimen/size16"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.584"
