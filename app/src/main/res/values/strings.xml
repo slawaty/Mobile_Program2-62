@@ -6,4 +6,9 @@
     <string name="address">สาขาวิชาวิศวกรรมคอมพิเตอร์สาขาอุตสาหกรรม</string>
     <string name="address1">วิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย วิทยาลัยรัตภูมิ</string>
     <color name="Bg1">#111999</color>
+    <string name="Welcome">ยินดีต้อนรับเข้าสู่ระบบ</string>
+    <string name="textname">Name</string>
+    <string name="textpass">Password</string>
+    <string name="textphone">Phone</string>
+
 </resources>

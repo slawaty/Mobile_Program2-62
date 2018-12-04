@@ -8,7 +8,7 @@
     tools:context=".Profile">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/imgbtnn"
         android:layout_width="92dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -18,7 +18,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/btn"
-        android:text="เริ่มต้น"
+        android:text="start"
         android:textColor="@color/colorAccent"
         android:textColorHighlight="@color/btn"
         android:textCursorDrawable="@color/bg"
@@ -80,7 +80,7 @@
         android:text="@string/name"
         android:textColor="@color/colorAccent"
         android:textSize="@dimen/size24"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/imgbtnn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
