@@ -18,11 +18,8 @@ public class Third extends AppCompatActivity {
 
         username = (EditText)findViewById(R.id.edituser);
         password = (EditText)findViewById(R.id.editpass);
-        phone = (EditText)findViewById(R.id.editphone);
+        phone =  (EditText)findViewById(R.id.editphone) ;
 
-        username.setText(getIntent().getStringExtra("name"));
-        password.setText(getIntent().getStringExtra("passwd"));
-        phone.setText(getIntent().getStringExtra("telephone"));
 
 
         btnNext = (Button)findViewById(R.id.btnnext);
@@ -30,6 +27,12 @@ public class Third extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Third.this, Four.class);
+                startActivity(intent);
+
+                intent.putExtra("name", username.getText().toString());
+                intent.putExtra("passwd", password.getText().toString());
+                intent.putExtra("phone",phone.getText().toString());
+
                 startActivity(intent);
             }
         });

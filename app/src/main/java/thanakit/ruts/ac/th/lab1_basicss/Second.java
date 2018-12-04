@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class Second extends AppCompatActivity {
 
-    ImageButton btnh, btnn, btnb;
+    ImageButton btnh, btnn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,12 +33,5 @@ public class Second extends AppCompatActivity {
             }
         });
 
-        btnb = (ImageButton)findViewById(R.id.imgbtnb);
-        btnb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Second.this, Profile.class);
-            }
-        });
     }
 }
