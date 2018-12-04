@@ -147,7 +147,7 @@
         tools:layout_editor_absoluteY="128dp" />
 
     <Button
-        android:id="@+id/btnpass"
+        android:id="@+id/btnnext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
